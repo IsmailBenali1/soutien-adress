@@ -12,7 +12,7 @@ const Personne = ({ propriete }) => {
           {prop.name} {prop.firstname}
         </p>
       ))}
-
+      <h1>LISTE DES ADRESSES</h1>
       <Adresse add={propriete} />
     </div>
   );
